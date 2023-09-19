@@ -806,6 +806,7 @@ strong {
   padding-top: 13px;
   padding-bottom: 13px;
   outline: none;
+  resize: none;
 }
 
 .custom-form button[type="submit"] {
@@ -874,9 +875,8 @@ strong {
 }
 
 .footer_alysson {
-  display: flex;
+  color: var(--white-color);
 }
-
 
 
 /*---------------------------------------
