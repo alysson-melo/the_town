@@ -887,6 +887,9 @@ strong {
 }
 
 #back-top>a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
   color: white;
 }
 
