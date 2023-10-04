@@ -1,4 +1,3 @@
-
 /*---------------------------------------
   CUSTOM PROPERTIES ( VARIABLES )             
 -----------------------------------------*/
@@ -870,6 +869,26 @@ strong {
   color: var(--white-color);
 }
 
+#back-top {
+  display: flex;
+  background: var(--custom-btn-bg-color);
+  height: 50px;
+  width: 50px;
+  right: 31px;
+  bottom: 18px;
+  position: fixed;
+  font-size: 20px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  line-height: 48px;
+  border: 2px solid transparent;
+  box-shadow: 0 0 10px 3px rgba(108, 98, 98, 0.2);
+}
+
+#back-top>a {
+  color: white;
+}
 
 /*---------------------------------------
   SOCIAL ICON               
